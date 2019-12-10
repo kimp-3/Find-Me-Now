@@ -19,14 +19,12 @@ h3#titleHeader{
   line-height: 120px;
 }
 
-/* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
 
-/* Style the buttons inside the tab */
 .tab button {
   background-color: inherit;
   float: left;
@@ -38,60 +36,66 @@ h3#titleHeader{
   font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
 .tab button.currentTab {
   background-color: #ccc;
 }
 
-/* Style the tab content */
 .tabcontent {
   display: none;
-  /* padding: 6px 12px; */
   border: 1px solid #ccc;
   border-top: none;
 }
+
 table {
   margin: 0;
 }
+
 th {
   text-align: left;
   padding-right: 1em;
 }
+
 td {
   padding-right: 1em;
 }
+
 #itemTable {
   width: 100%;
   border-spacing: 0;
-  /* border: 1px solid #333; */
 }
+
 #itemTable th {
-  background-color: RGB(241,234,229);/*#ddc;*/
+  background-color: RGB(241,234,229);
   padding: 2px 4px;
   border: 1px solid #333;
 }
+
 #itemTable td {
   padding: 2px 4px;
 }
+
 #itemTable tr.odd td {
-  background-color: RGB(241,234,229); /* #eed; */
+  background-color: RGB(241,234,229);
   color: black;
 }
+
 iframe {
   min-width: 20%;
   min-height: 200px;
 }
+
 .cactus {
   cursor: url('cactus.png'), auto;
 }
+
 .rainbow {
   cursor: url('rainbow.png'), auto;
 }
+
 #footer {
   position: absolute;
   bottom: 5px;

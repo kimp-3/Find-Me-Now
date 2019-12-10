@@ -4,3 +4,5 @@
  
  Created by: Adam Fellows, Patrick Kim, Bhargav Chirravuri
 # Setup & Instructions
+ Execute the start.sql file to setup th database.
+ 
