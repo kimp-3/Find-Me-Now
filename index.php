@@ -168,11 +168,6 @@
   <button id="getLoc" onclick="getLocation()">Get Your Location!</button>
 </div>
 
-<!-- <div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div> -->
-
 <script>
 function openTab(evt, cityName) {
   var i, tabcontent, tablinks;
